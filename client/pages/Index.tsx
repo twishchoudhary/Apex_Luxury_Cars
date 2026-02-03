@@ -8,7 +8,8 @@ const featuredCars = [
   {
     name: "Huracán Sterrato",
     brand: "Lamborghini",
-    imageUrl: "https://images.pexels.com/photos/120049/lamborghini-yellow-sports-car-120049.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageUrl:
+      "https://images.pexels.com/photos/120049/lamborghini-yellow-sports-car-120049.jpeg?auto=compress&cs=tinysrgb&w=800",
     price: "From $262,000",
     specs: [
       { label: "Horsepower", value: "631 HP" },
@@ -20,7 +21,8 @@ const featuredCars = [
   {
     name: "911 Turbo S",
     brand: "Porsche",
-    imageUrl: "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageUrl:
+      "https://images.pexels.com/photos/3807517/pexels-photo-3807517.jpeg?auto=compress&cs=tinysrgb&w=800",
     price: "From $223,000",
     specs: [
       { label: "Horsepower", value: "640 HP" },
@@ -32,7 +34,8 @@ const featuredCars = [
   {
     name: "Model S Plaid",
     brand: "Tesla",
-    imageUrl: "https://images.pexels.com/photos/3803517/pexels-photo-3803517.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageUrl:
+      "https://images.pexels.com/photos/3803517/pexels-photo-3803517.jpeg?auto=compress&cs=tinysrgb&w=800",
     price: "From $84,990",
     specs: [
       { label: "Horsepower", value: "1,020 HP" },
@@ -44,7 +47,8 @@ const featuredCars = [
   {
     name: "M4 Competition",
     brand: "BMW",
-    imageUrl: "https://images.pexels.com/photos/3414887/pexels-photo-3414887.jpeg?auto=compress&cs=tinysrgb&w=800",
+    imageUrl:
+      "https://images.pexels.com/photos/3414887/pexels-photo-3414887.jpeg?auto=compress&cs=tinysrgb&w=800",
     price: "From $106,700",
     specs: [
       { label: "Horsepower", value: "625 HP" },
@@ -58,20 +62,26 @@ const featuredCars = [
 const categories = [
   {
     title: "Sports Cars",
-    description: "Ultimate performance machines engineered for pure speed and agility",
-    imageUrl: "https://images.pexels.com/photos/1385470/pexels-photo-1385470.jpeg?auto=compress&cs=tinysrgb&w=800",
+    description:
+      "Ultimate performance machines engineered for pure speed and agility",
+    imageUrl:
+      "https://images.pexels.com/photos/1385470/pexels-photo-1385470.jpeg?auto=compress&cs=tinysrgb&w=800",
     count: 12,
   },
   {
     title: "Luxury SUVs",
-    description: "Refined elegance combined with commanding presence and capability",
-    imageUrl: "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=800",
+    description:
+      "Refined elegance combined with commanding presence and capability",
+    imageUrl:
+      "https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&w=800",
     count: 8,
   },
   {
     title: "Electric Vehicles",
-    description: "Next-generation performance with zero-emission sustainable power",
-    imageUrl: "https://images.pexels.com/photos/2820850/pexels-photo-2820850.jpeg?auto=compress&cs=tinysrgb&w=800",
+    description:
+      "Next-generation performance with zero-emission sustainable power",
+    imageUrl:
+      "https://images.pexels.com/photos/2820850/pexels-photo-2820850.jpeg?auto=compress&cs=tinysrgb&w=800",
     count: 10,
   },
 ];
@@ -107,13 +117,17 @@ export default function Index() {
                 <h1 className="text-5xl md:text-7xl font-black text-white leading-tight mb-6">
                   Experience Power.
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary via-blue-400 to-accent">
-                    {" "}Precision. Prestige.
+                    {" "}
+                    Precision. Prestige.
                   </span>
                 </h1>
               </div>
 
               <p className="text-lg text-white/80 max-w-lg leading-relaxed">
-                Discover our exclusive collection of world-class luxury and sports cars. From the legendary Lamborghini to cutting-edge Tesla technology, every vehicle represents the pinnacle of automotive engineering.
+                Discover our exclusive collection of world-class luxury and
+                sports cars. From the legendary Lamborghini to cutting-edge
+                Tesla technology, every vehicle represents the pinnacle of
+                automotive engineering.
               </p>
 
               {/* CTAs */}
@@ -139,7 +153,9 @@ export default function Index() {
                 </div>
                 <div>
                   <p className="text-3xl font-bold text-primary">99%</p>
-                  <p className="text-white/70 text-sm mt-1">Customer Satisfaction</p>
+                  <p className="text-white/70 text-sm mt-1">
+                    Customer Satisfaction
+                  </p>
                 </div>
               </div>
             </div>
@@ -172,7 +188,8 @@ export default function Index() {
                 Our Collections
               </h2>
               <p className="text-white/70 text-lg max-w-2xl mx-auto">
-                Explore our curated collections across three distinct categories of automotive excellence
+                Explore our curated collections across three distinct categories
+                of automotive excellence
               </p>
             </div>
 
@@ -200,7 +217,8 @@ export default function Index() {
                 Iconic Models
               </h2>
               <p className="text-white/70 text-lg max-w-2xl mx-auto">
-                Handpicked masterpieces from the world's most prestigious automotive brands
+                Handpicked masterpieces from the world's most prestigious
+                automotive brands
               </p>
             </div>
 
@@ -230,7 +248,9 @@ export default function Index() {
               Drive Your Dream Today
             </h2>
             <p className="text-white/80 text-lg mb-10 max-w-2xl mx-auto">
-              Join our exclusive community of luxury car enthusiasts. Whether you're looking to purchase, lease, or experience your dream vehicle, we're here to make it happen.
+              Join our exclusive community of luxury car enthusiasts. Whether
+              you're looking to purchase, lease, or experience your dream
+              vehicle, we're here to make it happen.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -258,7 +278,8 @@ export default function Index() {
                   <span className="font-bold text-xl text-white">APEX</span>
                 </div>
                 <p className="text-white/60 text-sm">
-                  Premium luxury and sports car collection for discerning enthusiasts.
+                  Premium luxury and sports car collection for discerning
+                  enthusiasts.
                 </p>
               </div>
 
@@ -269,17 +290,26 @@ export default function Index() {
                 </h4>
                 <ul className="space-y-2 text-sm text-white/60">
                   <li>
-                    <a href="#" className="hover:text-primary transition-colors">
+                    <a
+                      href="#"
+                      className="hover:text-primary transition-colors"
+                    >
                       Sports Cars
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-primary transition-colors">
+                    <a
+                      href="#"
+                      className="hover:text-primary transition-colors"
+                    >
                       Luxury SUVs
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-primary transition-colors">
+                    <a
+                      href="#"
+                      className="hover:text-primary transition-colors"
+                    >
                       Electric Vehicles
                     </a>
                   </li>
@@ -293,17 +323,26 @@ export default function Index() {
                 </h4>
                 <ul className="space-y-2 text-sm text-white/60">
                   <li>
-                    <a href="#" className="hover:text-primary transition-colors">
+                    <a
+                      href="#"
+                      className="hover:text-primary transition-colors"
+                    >
                       About Us
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-primary transition-colors">
+                    <a
+                      href="#"
+                      className="hover:text-primary transition-colors"
+                    >
                       Contact
                     </a>
                   </li>
                   <li>
-                    <a href="#" className="hover:text-primary transition-colors">
+                    <a
+                      href="#"
+                      className="hover:text-primary transition-colors"
+                    >
                       Privacy Policy
                     </a>
                   </li>
@@ -337,7 +376,8 @@ export default function Index() {
             {/* Copyright */}
             <div className="border-t border-border/50 pt-8">
               <p className="text-center text-white/50 text-sm">
-                © 2024 APEX Luxury Motors. All rights reserved. | Premium Automotive Excellence
+                © 2024 APEX Luxury Motors. All rights reserved. | Premium
+                Automotive Excellence
               </p>
             </div>
           </div>

@@ -11,7 +11,8 @@ export default function Markets() {
             Explore all available stocks and market data
           </p>
           <p className="text-sm text-muted-foreground mt-4">
-            This page is ready to be filled in with market data. Continue prompting to build it out!
+            This page is ready to be filled in with market data. Continue
+            prompting to build it out!
           </p>
         </div>
       </main>

@@ -1,25 +1,36 @@
-import { Award, Shield, DollarSign, Zap, Heart, TrendingUp } from "lucide-react";
+import {
+  Award,
+  Shield,
+  DollarSign,
+  Zap,
+  Heart,
+  TrendingUp,
+} from "lucide-react";
 
 const benefits = [
   {
     icon: Award,
     title: "Premium Selection",
-    description: "Hand-picked luxury and sports cars from world-renowned manufacturers",
+    description:
+      "Hand-picked luxury and sports cars from world-renowned manufacturers",
   },
   {
     icon: Shield,
     title: "Verified Authenticity",
-    description: "Every vehicle undergoes rigorous performance and authenticity verification",
+    description:
+      "Every vehicle undergoes rigorous performance and authenticity verification",
   },
   {
     icon: DollarSign,
     title: "Flexible Financing",
-    description: "Customized financing options tailored to your budget and preferences",
+    description:
+      "Customized financing options tailored to your budget and preferences",
   },
   {
     icon: Zap,
     title: "Exclusive Test Drives",
-    description: "Experience vehicles on premium tracks with professional instruction",
+    description:
+      "Experience vehicles on premium tracks with professional instruction",
   },
   {
     icon: Heart,
@@ -29,7 +40,8 @@ const benefits = [
   {
     icon: TrendingUp,
     title: "Trusted by Enthusiasts",
-    description: "Preferred by luxury car collectors and performance enthusiasts worldwide",
+    description:
+      "Preferred by luxury car collectors and performance enthusiasts worldwide",
   },
 ];
 
@@ -43,7 +55,8 @@ export const WhyChooseUs = () => {
             Why Choose APEX
           </h2>
           <p className="text-white/70 text-lg max-w-2xl mx-auto">
-            Experience the pinnacle of automotive excellence with our curated collection and exceptional service
+            Experience the pinnacle of automotive excellence with our curated
+            collection and exceptional service
           </p>
         </div>
 

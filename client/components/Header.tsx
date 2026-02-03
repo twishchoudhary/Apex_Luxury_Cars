@@ -50,11 +50,7 @@ export const Header = () => {
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden p-2 hover:bg-white/10 rounded-lg transition-colors"
         >
-          {isOpen ? (
-            <X className="w-6 h-6" />
-          ) : (
-            <Menu className="w-6 h-6" />
-          )}
+          {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
         </button>
       </nav>
 

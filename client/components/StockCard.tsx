@@ -32,15 +32,18 @@ export const StockCard = ({ stock }: StockCardProps) => {
 
       {/* Price */}
       <div className="mb-4">
-        <p className="text-2xl font-bold text-foreground">${stock.price.toFixed(2)}</p>
+        <p className="text-2xl font-bold text-foreground">
+          ${stock.price.toFixed(2)}
+        </p>
         <div className="flex items-center gap-2 mt-1">
           <span
             className={cn(
               "text-sm font-semibold",
-              isPositive ? "text-success" : "text-destructive"
+              isPositive ? "text-success" : "text-destructive",
             )}
           >
-            {isPositive ? "+" : ""}{stock.change.toFixed(2)} ({stock.changePercent.toFixed(2)}%)
+            {isPositive ? "+" : ""}
+            {stock.change.toFixed(2)} ({stock.changePercent.toFixed(2)}%)
           </span>
         </div>
       </div>
@@ -49,27 +52,37 @@ export const StockCard = ({ stock }: StockCardProps) => {
       <div className="grid grid-cols-2 gap-3 pt-4 border-t border-border">
         <div>
           <p className="text-xs text-muted-foreground mb-1">Volume</p>
-          <p className="text-sm font-semibold text-foreground">{stock.volume}</p>
+          <p className="text-sm font-semibold text-foreground">
+            {stock.volume}
+          </p>
         </div>
         <div>
           <p className="text-xs text-muted-foreground mb-1">Market Cap</p>
-          <p className="text-sm font-semibold text-foreground">{stock.marketCap}</p>
+          <p className="text-sm font-semibold text-foreground">
+            {stock.marketCap}
+          </p>
         </div>
         <div className="col-span-2">
           <p className="text-xs text-muted-foreground mb-1">52-Week Range</p>
           <div className="flex items-center justify-between">
-            <span className="text-xs font-medium text-foreground">${stock.low52Week.toFixed(2)}</span>
+            <span className="text-xs font-medium text-foreground">
+              ${stock.low52Week.toFixed(2)}
+            </span>
             <div className="flex-1 mx-2 h-1.5 bg-input rounded-full overflow-hidden">
               <div
                 className="h-full bg-gradient-to-r from-destructive to-success"
                 style={{
                   width: `${
-                    ((stock.price - stock.low52Week) / (stock.high52Week - stock.low52Week)) * 100
+                    ((stock.price - stock.low52Week) /
+                      (stock.high52Week - stock.low52Week)) *
+                    100
                   }%`,
                 }}
               />
             </div>
-            <span className="text-xs font-medium text-foreground">${stock.high52Week.toFixed(2)}</span>
+            <span className="text-xs font-medium text-foreground">
+              ${stock.high52Week.toFixed(2)}
+            </span>
           </div>
         </div>
       </div>

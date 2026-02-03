@@ -11,7 +11,8 @@ export default function Portfolio() {
             Track your investments and performance
           </p>
           <p className="text-sm text-muted-foreground mt-4">
-            This page is ready to be filled in with your portfolio data. Continue prompting to build it out!
+            This page is ready to be filled in with your portfolio data.
+            Continue prompting to build it out!
           </p>
         </div>
       </main>

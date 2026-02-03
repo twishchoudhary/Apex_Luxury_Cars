@@ -3,11 +3,7 @@ import { TrendingUp, TrendingDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 export const MarketStats = () => {
-  const stats = [
-    marketStats.sAndP500,
-    marketStats.nasdaq,
-    marketStats.djia,
-  ];
+  const stats = [marketStats.sAndP500, marketStats.nasdaq, marketStats.djia];
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
@@ -19,7 +15,9 @@ export const MarketStats = () => {
             className="bg-white dark:bg-card border border-border rounded-xl p-6 hover:shadow-lg hover:border-primary/50 transition-all duration-300"
           >
             <div className="flex items-center justify-between mb-3">
-              <h4 className="font-semibold text-foreground text-sm">{stat.index}</h4>
+              <h4 className="font-semibold text-foreground text-sm">
+                {stat.index}
+              </h4>
               {isPositive ? (
                 <TrendingUp className="w-5 h-5 text-success" />
               ) : (
@@ -32,10 +30,11 @@ export const MarketStats = () => {
             <p
               className={cn(
                 "text-sm font-semibold",
-                isPositive ? "text-success" : "text-destructive"
+                isPositive ? "text-success" : "text-destructive",
               )}
             >
-              {isPositive ? "+" : ""}{stat.change.toFixed(2)} ({stat.changePercent.toFixed(2)}%)
+              {isPositive ? "+" : ""}
+              {stat.change.toFixed(2)} ({stat.changePercent.toFixed(2)}%)
             </p>
             <p className="text-xs text-muted-foreground mt-3">
               {isPositive

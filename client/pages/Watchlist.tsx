@@ -11,7 +11,8 @@ export default function Watchlist() {
             Monitor your favorite stocks in one place
           </p>
           <p className="text-sm text-muted-foreground mt-4">
-            This page is ready to be filled in with your watchlist. Continue prompting to build it out!
+            This page is ready to be filled in with your watchlist. Continue
+            prompting to build it out!
           </p>
         </div>
       </main>

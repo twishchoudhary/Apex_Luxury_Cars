@@ -21,7 +21,7 @@ export interface Stock {
 function generateStockData(
   basePrice: number,
   volatility: number,
-  days: number
+  days: number,
 ): StockDataPoint[] {
   const data: StockDataPoint[] = [];
   let currentPrice = basePrice;
@@ -29,10 +29,10 @@ function generateStockData(
   for (let i = days; i >= 0; i--) {
     const change = (Math.random() - 0.5) * volatility;
     currentPrice = Math.max(currentPrice + change, basePrice * 0.7);
-    
+
     const date = new Date();
     date.setDate(date.getDate() - i);
-    
+
     data.push({
       time: date.toLocaleDateString(),
       price: Math.round(currentPrice * 100) / 100,
@@ -89,7 +89,7 @@ export const stocksData: Stock[] = [
     volume: "78.9M",
     marketCap: "$751B",
     high52Week: 299.29,
-    low52Week: 138.80,
+    low52Week: 138.8,
     data: generateStockData(238.45, 3.2, 90),
   },
   {
