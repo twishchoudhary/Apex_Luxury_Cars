@@ -12,95 +12,100 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
-    --foreground: 210 11% 15%;
+    /* Dark luxury theme - charcoal and black backgrounds */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 210 11% 15%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 11% 15%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 199 89% 48%;
-    --primary-foreground: 0 0% 100%;
+    /* Primary accent - Electric Blue */
+    --primary: 200 100% 55%;
+    --primary-foreground: 0 0% 5%;
 
-    --secondary: 210 11% 15%;
-    --secondary-foreground: 0 0% 100%;
+    /* Secondary - Silver/Light gray */
+    --secondary: 0 0% 88%;
+    --secondary-foreground: 0 0% 5%;
 
-    --muted: 210 11% 85%;
-    --muted-foreground: 210 11% 40%;
+    --muted: 0 0% 40%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 199 89% 48%;
-    --accent-foreground: 0 0% 100%;
+    /* Accent - Vibrant red for luxury sports cars */
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 5%;
 
-    --border: 210 11% 90%;
-    --input: 210 11% 95%;
-    --ring: 199 89% 48%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 200 100% 55%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 210 11% 15%;
-    --sidebar-primary: 199 89% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 199 89% 48%;
-    --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 210 11% 90%;
-    --sidebar-ring: 199 89% 48%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 200 100% 55%;
+    --sidebar-primary-foreground: 0 0% 5%;
+    --sidebar-accent: 0 100% 50%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 200 100% 55%;
 
     --success: 120 61% 45%;
-    --success-foreground: 0 0% 100%;
+    --success-foreground: 0 0% 5%;
 
     --warning: 38 92% 50%;
-    --warning-foreground: 0 0% 0%;
+    --warning-foreground: 0 0% 5%;
   }
 
   .dark {
-    --background: 210 11% 10%;
-    --foreground: 0 0% 95%;
+    /* Dark luxury theme - primary mode */
+    --background: 0 0% 5%;
+    --foreground: 0 0% 98%;
 
-    --card: 210 11% 15%;
-    --card-foreground: 0 0% 95%;
+    --card: 0 0% 12%;
+    --card-foreground: 0 0% 98%;
 
-    --popover: 210 11% 15%;
-    --popover-foreground: 0 0% 95%;
+    --popover: 0 0% 12%;
+    --popover-foreground: 0 0% 98%;
 
-    --primary: 199 89% 48%;
-    --primary-foreground: 210 11% 10%;
+    --primary: 200 100% 55%;
+    --primary-foreground: 0 0% 5%;
 
-    --secondary: 0 0% 90%;
-    --secondary-foreground: 210 11% 10%;
+    --secondary: 0 0% 88%;
+    --secondary-foreground: 0 0% 5%;
 
-    --muted: 210 11% 30%;
-    --muted-foreground: 210 11% 70%;
+    --muted: 0 0% 40%;
+    --muted-foreground: 0 0% 70%;
 
-    --accent: 199 89% 48%;
-    --accent-foreground: 210 11% 10%;
+    --accent: 0 100% 50%;
+    --accent-foreground: 0 0% 98%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 11% 10%;
+    --destructive-foreground: 0 0% 5%;
 
-    --border: 210 11% 25%;
-    --input: 210 11% 20%;
-    --ring: 199 89% 48%;
+    --border: 0 0% 20%;
+    --input: 0 0% 15%;
+    --ring: 200 100% 55%;
 
-    --sidebar-background: 210 11% 12%;
-    --sidebar-foreground: 0 0% 95%;
-    --sidebar-primary: 199 89% 48%;
-    --sidebar-primary-foreground: 210 11% 10%;
-    --sidebar-accent: 199 89% 55%;
-    --sidebar-accent-foreground: 210 11% 10%;
-    --sidebar-border: 210 11% 25%;
-    --sidebar-ring: 199 89% 48%;
+    --sidebar-background: 0 0% 8%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 200 100% 55%;
+    --sidebar-primary-foreground: 0 0% 5%;
+    --sidebar-accent: 0 100% 50%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 200 100% 55%;
 
     --success: 120 61% 45%;
-    --success-foreground: 210 11% 10%;
+    --success-foreground: 0 0% 5%;
 
     --warning: 38 92% 50%;
-    --warning-foreground: 210 11% 10%;
+    --warning-foreground: 0 0% 5%;
   }
 }
 
